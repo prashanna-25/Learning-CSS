@@ -8,7 +8,6 @@ h1 {
 }
 
 p {
-  background-color: black;
   color: aquamarine;
   font-family: "consolas", sans-serif;
   font-style: italic;
@@ -18,7 +17,7 @@ p {
 }
 
 #p1 {
-  color: pink;
+  color: darkgoldenrod;
 }
 
 #p2 {
@@ -26,7 +25,7 @@ p {
 }
 
 #p3 {
-  color: bisque;
+  color: darkmagenta;
 }
 
 h1 {
@@ -44,4 +43,22 @@ p {
   border-color: gold;
   border-radius: 15px;
   padding: 5px;
+}
+
+h1 {
+  background: linear-gradient(to left, cyan, lightgreen);
+  background-repeat: no-repeat; /*doesnot repeat color gradiant as we scroll*/
+  background-attachment: fixed; /*stretches background gradiant*/
+}
+
+.odd {
+  background: linear-gradient(to right, cyan, lightgreen);
+  background-repeat: no-repeat; /*doesnot repeat color gradiant as we scroll*/
+  background-attachment: fixed; /*stretches background gradiant*/
+}
+
+.even {
+  background: linear-gradient(to left, cyan, lightgreen);
+  background-repeat: no-repeat; /*doesnot repeat color gradiant as we scroll*/
+  background-attachment: fixed; /*stretches background gradiant*/
 }
