@@ -22,3 +22,11 @@ p {
 #p3 {
   color: bisque;
 }
+
+.odd {
+  background-color: grey;
+}
+
+.even {
+  background-color: brown;
+}
