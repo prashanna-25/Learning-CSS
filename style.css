@@ -4,11 +4,17 @@ body {
 
 h1 {
   color: white;
+  font-family: "press start 2P", "consolas", sans-serif;
 }
 
 p {
   background-color: rgb(21, 21, 21);
   color: aquamarine;
+  font-family: "consolas", sans-serif;
+  font-style: italic;
+  font-weight: bold;
+  text-decoration: cyan dashed underline;
+  font-size: 18px;
 }
 
 #p1 {
