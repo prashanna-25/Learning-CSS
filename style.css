@@ -62,3 +62,11 @@ h1 {
   background-repeat: no-repeat; /*doesnot repeat color gradiant as we scroll*/
   background-attachment: fixed; /*stretches background gradiant*/
 }
+
+body {
+  background-image: url(download.jpeg);
+  background-repeat: no-repeat; /*doesnot repeat color gradiant as we scroll*/
+  background-attachment: fixed; /*stretches background gradiant*/
+  background-position: center;
+  background-size: cover;
+}
