@@ -70,3 +70,26 @@ body {
   background-position: center;
   background-size: cover;
 }
+
+body {
+  border: 2px solid;
+  margin: 0px;
+}
+
+#box1 {
+  border: 5px solid;
+  width: 250px;
+  height: 250px;
+  font-size: 22px;
+  background: lime;
+  margin-top: 50px;
+  margin-left: auto;
+}
+
+#box2 {
+  border: 5px solid;
+  width: 250px;
+  height: 250px;
+  font-size: 22px;
+  background: skyblue;
+}
